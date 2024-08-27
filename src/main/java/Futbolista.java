@@ -27,6 +27,8 @@ public abstract class Futbolista implements Comparable<Futbolista>{
 		return this.posicion;
 	}
 	
+	public int compareTo();
+	
 	@Override
 	public String toString(Futbolista elFutbolista) {
 		System.out.println("El futbolista " + this.getNombre() + " tiene " + this.getEdad() + 
